@@ -1,0 +1,31 @@
+﻿生成启动时间为 2022/4/24 21:29:31。
+     1>项目“C:\Users\PC\Desktop\DataImport2010\DataImport2010\DataImport2010.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\OSG_64\warmerda2\bld /ID:\OSG_64\warmerda2\bld\include /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtCore /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtXml /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtSql /I"D:\OSG_64\OpenSceneGraph-3.2.0\include" /ID:\OSG_64\OsgEarth270\src /ID:\OSG_64\SatCO2\SatCO2\src /ID:\OSG_64\warmerda2\bld\include /ID:\OSG_64\3rdParty_x64\x64\include /ID:\OSG_64\OpenSceneGraph341Sln\include /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtGui /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtWidgets /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtOpenGL /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtNetwork /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtCore /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtDeclarative /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtNetwork /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtQml /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtSql /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtXlsx /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtConcurrent /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtXml /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QWT /ID:\Qt\Qt5.6.0\5.6\msvc2013_64\include\ActiveQt /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"X64\Debug\\" /Fd"X64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt DataImport.cpp
+         DataImport.cpp
+     1>c:\users\pc\desktop\dataimport2010\dataimport2010\DataImportUtils.h(20): warning C4091: “static ”: 没有声明变量时忽略“DataImportUtils”的左侧
+     1>DataImport.cpp(447): warning C4305: “初始化”: 从“double”到“float”截断
+     1>DataImport.cpp(484): warning C4305: “*=”: 从“double”到“float”截断
+     1>DataImport.cpp(490): warning C4305: “初始化”: 从“double”到“float”截断
+     1>DataImport.cpp(699): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DataImport.cpp(701): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\stdlib.h(528) : 参见“mbstowcs”的声明
+     1>DataImport.cpp(703): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DataImport.cpp(705): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\stdlib.h(528) : 参见“mbstowcs”的声明
+     1>DataImport.cpp(707): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DataImport.cpp(709): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\stdlib.h(528) : 参见“mbstowcs”的声明
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\PC\Desktop\DataImport2010\X64\Debug\DataImport2010.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Qt\Qt5.6.0\5.6\msvc2013_64\lib /LIBPATH:"C:\Program Files\PostgreSQL\11\lib" /LIBPATH:D:\OSG_64\warmerda2\bld\lib /LIBPATH:libcurl_impd.lib gdal_i.lib Qt5Cored.lib Qt5Sqld.lib Qt5Guid.lib Qt5Concurrentd.lib Qt5Xmld.lib libpq.lib libpgport.lib libpgcommon.lib postgres.lib qtmaind.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\PC\Desktop\DataImport2010\X64\Debug\DataImport2010.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\PC\Desktop\DataImport2010\X64\Debug\DataImport2010.lib" /MACHINE:X64 /machine:X64 /debug X64\Debug\DataImport.obj
+         X64\Debug\DataImport2010.obj
+         X64\Debug\DataImportUtils.obj
+         X64\Debug\stdafx.obj
+         X64\Debug\zip.obj
+            正在创建库 C:\Users\PC\Desktop\DataImport2010\X64\Debug\DataImport2010.lib 和对象 C:\Users\PC\Desktop\DataImport2010\X64\Debug\DataImport2010.exp
+         DataImport2010.vcxproj -> C:\Users\PC\Desktop\DataImport2010\X64\Debug\DataImport2010.exe
+     1>已完成生成项目“C:\Users\PC\Desktop\DataImport2010\DataImport2010\DataImport2010.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.74

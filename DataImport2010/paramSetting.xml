@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramSetting>
+	<serverIP>localhost</serverIP>
+	<vectorIP>183.134.199.5</vectorIP>
+    <database>satco2</database>
+	<table>gml_chn_layer</table>
+    <SourceDir>D:\Source</SourceDir>
+    <TargetDir>D:\Target</TargetDir>
+    <TargetTIFFDir>D:\SourceTiff\TIFF</TargetTIFFDir>
+    <RestartEXE>database</RestartEXE>
+</paramSetting>

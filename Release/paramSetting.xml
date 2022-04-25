@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramSetting>
+	<serverIP>183.134.199.3</serverIP>
+    <vectorIP>183.134.199.5</vectorIP>
+    <database>satco2</database>
+    <SourceDir>D:\Source</SourceDir>
+    <TargetDir>D:\Target</TargetDir>
+    <TargetTIFFDir>D:\SourceTiff\TIFF</TargetTIFFDir>
+    <RestartEXE>database</RestartEXE>
+</paramSetting>

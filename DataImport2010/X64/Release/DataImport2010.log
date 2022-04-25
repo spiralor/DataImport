@@ -1,0 +1,23 @@
+﻿生成启动时间为 2022/4/24 17:07:24。
+     1>项目“C:\Users\PC\Desktop\DataImport2010\DataImport2010\DataImport2010.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“X64\Release\DataImport2010.tlog\unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\PC\Desktop\DataImport2010\X64\Release\DataImport2010.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\Qt\Qt5.6.0\5.6\msvc2013_64\lib /LIBPATH:"C:\Program Files\PostgreSQL\11\lib" /LIBPATH:D:\OSG_64\warmerda2\bld\lib /LIBPATH:D:\OSG_64\OpenSceneGraph320Sln\lib /LIBPATH:D:\OSG_64\OsgEarth270Sln\lib\Release /LIBPATH:D:\Qt\Qt5.6.0\5.6\msvc2013_64\lib /LIBPATH:D:\OSG_64\warmerda2\bld\lib /LIBPATH:D:\OSG_64\3rdParty_x64\x64\lib gdal_i.lib Qt5Core.lib Qt5Sql.lib Qt5Gui.lib Qt5Concurrent.lib Qt5Xml.lib libpq.lib libpgport.lib libpgcommon.lib postgres.lib Qt5Widgets.lib gdal_i.lib libcurl_impd.lib Qt5Cored.lib Qt5Guid.lib Qt5OpenGLd.lib Qt5AxServerd.lib Qt5Sqld.lib Qt5AxContainerd.lib Qt5Networkd.lib Qt5Widgetsd.lib Qt5Qmld.lib Qt5Networkd.lib Qt5Concurrentd.lib Qt5Xmld.lib Qt5Sqld.lib qwtd.lib netcdf.lib Qt5AxBased.lib Qt5AxContainerd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\PC\Desktop\DataImport2010\X64\Release\DataImport2010.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\PC\Desktop\DataImport2010\X64\Release\DataImport2010.lib" /MACHINE:X64 X64\Release\DataImport.obj
+         X64\Release\DataImport2010.obj
+         X64\Release\DataImportUtils.obj
+         X64\Release\stdafx.obj
+         X64\Release\zip.obj
+         {{xgTaskID=00000006}}   正在创建库 C:\Users\PC\Desktop\DataImport2010\X64\Release\DataImport2010.lib 和对象 C:\Users\PC\Desktop\DataImport2010\X64\Release\DataImport2010.exp正在生成代码已完成代码的生成{{xgTaskID=00000000}}
+         DataImport2010.vcxproj -> C:\Users\PC\Desktop\DataImport2010\X64\Release\DataImport2010.exe
+       FinalizeBuildStatus:
+         正在删除文件“X64\Release\DataImport2010.tlog\unsuccessfulbuild”。
+         正在对“X64\Release\DataImport2010.tlog\DataImport2010.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\PC\Desktop\DataImport2010\DataImport2010\DataImport2010.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.59

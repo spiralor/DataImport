@@ -1,0 +1,45 @@
+﻿生成启动时间为 2019/3/20 18:17:46。
+     1>项目“G:\GJPX\DataImport2010\DataImport2010\DataImport2010.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\DataImport2010.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Qt\5.5\msvc2010\include\QtCore /ID:\Qt\5.5\msvc2010\include\QtXml /IF:\OSG\VS2010_3rdParty\OsgEarth\x86\include /IF:\OSG\VS2010_3rdParty\warmerda\bld\include /I"C:\Program Files (x86)\PostgreSQL\9.3\include" /ID:\Qt\5.5\msvc2010\include /ID:\Qt\5.5\msvc2010\include\QtSql /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DataImport.cpp
+         {{xgTaskID=00000004}}
+         DataImport.cpp
+     1>g:\gjpx\dataimport2010\dataimport2010\DataImportUtils.h(20): warning C4091: “static ”: 没有声明变量时忽略“DataImportUtils”的左侧
+     1>DataImport.cpp(440): warning C4305: “初始化”: 从“double”到“float”截断
+     1>DataImport.cpp(472): warning C4305: “*=”: 从“double”到“float”截断
+     1>DataImport.cpp(531): warning C4018: “<”: 有符号/无符号不匹配
+     1>DataImport.cpp(680): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(498) : 参见“mbstowcs”的声明
+     1>DataImport.cpp(684): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(498) : 参见“mbstowcs”的声明
+     1>DataImport.cpp(688): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(498) : 参见“mbstowcs”的声明
+         {{xgTaskID=00000000}}
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\GJPX\DataImport2010\Release\DataImport2010.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\Qt\5.5\msvc2010\lib /LIBPATH:"C:\Program Files (x86)\PostgreSQL\9.3\lib" /LIBPATH:F:\OSG\VS2010_3rdParty\warmerda\bld\lib gdal_i.lib Qt5Core.lib Qt5Sql.lib Qt5Gui.lib Qt5Concurrent.lib Qt5Xml.lib libpq.lib libpgport.lib libpgcommon.lib postgres.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\DataImport2010.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\GJPX\DataImport2010\Release\DataImport2010.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\GJPX\DataImport2010\Release\DataImport2010.lib" /MACHINE:X86 Release\DataImport.obj
+         Release\DataImport2010.obj
+         Release\DataImportUtils.obj
+         Release\stdafx.obj
+         Release\zip.obj
+         {{xgTaskID=00000005}}
+            正在创建库 G:\GJPX\DataImport2010\Release\DataImport2010.lib 和对象 G:\GJPX\DataImport2010\Release\DataImport2010.exp
+         正在生成代码
+         已完成代码的生成
+         {{xgTaskID=00000000}}
+         DataImport2010.vcxproj -> G:\GJPX\DataImport2010\Release\DataImport2010.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\GJPX\DataImport2010\Release\DataImport2010.exe;#1" /manifest Release\DataImport2010.exe.intermediate.manifest
+         {{xgTaskID=00000006}}
+         
+         {{xgTaskID=00000000}}
+       FinalizeBuildStatus:
+         正在删除文件“Release\DataImport2010.unsuccessfulbuild”。
+         正在对“Release\DataImport2010.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\GJPX\DataImport2010\DataImport2010\DataImport2010.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.08

@@ -1,0 +1,4 @@
+D:\SourceTiff\TIFF\SST\1
+D:\SourceTiff\TIFF\SST\1\n_data
+sst
+b2r

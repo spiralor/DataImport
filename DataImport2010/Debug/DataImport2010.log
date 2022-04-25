@@ -1,0 +1,14 @@
+﻿生成启动时间为 2019/12/9 22:43:21。
+     1>项目“C:\Users\PC\Desktop\DataImport2010\DataImport2010\DataImport2010.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\PC\Desktop\DataImport2010\Debug\DataImport2010.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Qt\5.5\msvc2010\lib /LIBPATH:"C:\Program Files (x86)\PostgreSQL\9.3\lib" /LIBPATH:F:\OSG\VS2010_3rdParty\warmerda\bld\lib /LIBPATH:D:\Qt\Qt5.6.0\5.6\msvc2013_64\lib /LIBPATH:"C:\Program Files\PostgreSQL\11\lib" /LIBPATH:D:\OSG_64\warmerda2\bld\lib gdal_i.lib Qt5Cored.lib Qt5Sqld.lib Qt5Guid.lib Qt5Concurrentd.lib Qt5Xmld.lib libpq.lib libpgport.lib libpgcommon.lib postgres.lib qtmaind.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\PC\Desktop\DataImport2010\Debug\DataImport2010.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\PC\Desktop\DataImport2010\Debug\DataImport2010.lib" /MACHINE:X86 /machine:X64 /debug Debug\DataImport.obj
+         Debug\DataImport2010.obj
+         Debug\DataImportUtils.obj
+         Debug\stdafx.obj
+         Debug\zip.obj
+     1>Debug\DataImport.obj : fatal error LNK1112: 模块计算机类型“X86”与目标计算机类型“x64”冲突
+     1>已完成生成项目“C:\Users\PC\Desktop\DataImport2010\DataImport2010\DataImport2010.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.29

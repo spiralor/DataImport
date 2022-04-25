@@ -1,0 +1,6 @@
+[22:21:15.150][][Warning] QSqlDatabase: QPSQL driver not loaded
+[22:21:15.150][][Warning] QSqlDatabase: available drivers: 
+[22:21:15.150][][Warning] QSqlDatabase: an instance of QCoreApplication is required for loading driver plugins
+[22:21:15.151][int __cdecl wmain(int,wchar_t *[])][Debug] 数据库连接失败.
+[14:56:08.506][void __thiscall DataImport::execDataImp(class QString)][Debug] D:\Target\CMEMS_MODEL_MERGE_19980101TO19980101_L3B_GLOBAL_25KM_MLD_NODEF.HDF
+[14:56:54.044][void __thiscall DataImport::execDataImp(class QString)][Debug] D:\Target\NOAA_NOAA_AVHRR_20030601TO20030601_L3B_GLOBAL_25KM_SST_NOAAV2.HDF

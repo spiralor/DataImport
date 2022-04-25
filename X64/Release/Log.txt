@@ -1,0 +1,227 @@
+[16:36:44.112][int __cdecl main(int,char **)][Debug] open failed.
+[16:36:57.988][int __cdecl main(int,char **)][Debug] open failed.
+[16:39:50.656][int __cdecl main(int,char **)][Debug] open failed.
+[16:39:57.193][int __cdecl main(int,char **)][Debug] open failed.
+[16:40:27.960][int __cdecl main(int,char **)][Debug] open failed.
+[16:49:12.331][int __cdecl main(int,char **)][Debug] open failed.
+[16:50:00.986][int __cdecl main(int,char **)][Debug] open failed.
+[16:50:08.475][int __cdecl main(int,char **)][Debug] open failed.
+[16:50:15.385][int __cdecl main(int,char **)][Debug] open failed.
+[16:50:35.839][int __cdecl main(int,char **)][Debug] open failed.
+[16:51:51.867][int __cdecl main(int,char **)][Debug] open failed.
+[16:51:59.238][int __cdecl main(int,char **)][Debug] open failed.
+[16:52:53.708][int __cdecl main(int,char **)][Debug] open failed.
+[16:54:03.837][int __cdecl main(int,char **)][Debug] open failed.
+[16:56:48.947][int __cdecl main(int,char **)][Debug] open failed.
+[16:57:56.190][int __cdecl main(int,char **)][Debug] open failed.
+[16:58:23.425][int __cdecl main(int,char **)][Debug] open failed.
+[16:58:30.528][int __cdecl main(int,char **)][Debug] open failed.
+[16:59:23.162][int __cdecl main(int,char **)][Debug] open failed.
+[16:59:35.208][int __cdecl main(int,char **)][Debug] open failed.
+[17:01:46.457][int __cdecl main(int,char **)][Debug] open failed.
+[17:04:15.256][int __cdecl main(int,char **)][Debug] open failed.
+[17:05:52.235][int __cdecl main(int,char **)][Debug] open failed.
+[17:09:00.206][int __cdecl main(int,char **)][Debug] open failed.
+[17:09:58.088][int __cdecl main(int,char **)][Debug] open failed.
+[17:10:24.164][int __cdecl main(int,char **)][Debug] open failed.
+[17:12:31.582][int __cdecl main(int,char **)][Debug] open failed.
+[17:13:12.875][int __cdecl main(int,char **)][Debug] open failed.
+[17:13:34.555][int __cdecl main(int,char **)][Debug] open failed.
+[17:14:02.145][int __cdecl main(int,char **)][Debug] open failed.
+[17:14:26.328][int __cdecl main(int,char **)][Debug] open failed.
+[17:14:32.129][int __cdecl main(int,char **)][Debug] open failed.
+[17:15:46.311][int __cdecl main(int,char **)][Debug] open failed.
+[17:22:07.634][int __cdecl main(int,char **)][Debug] open failed.
+[17:22:13.439][int __cdecl main(int,char **)][Debug] open failed.
+[17:35:54.811][int __cdecl main(int,char **)][Debug] open failed.
+[17:52:47.031][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[17:52:47.032][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[17:54:49.018][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[17:54:49.020][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[17:55:03.931][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[17:55:03.933][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[17:56:58.881][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[17:56:58.882][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[17:56:58.944][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] D:\Target\NASA_MODIS_MODIS_20201001TO20201031_L3B_GLOBAL_9KM_CHL_NASA2018.HDF
+[17:57:01.731][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[17:57:01.731][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[17:57:01.791][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] 入库成功.
+[17:57:08.291][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[17:57:08.292][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[17:57:10.259][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[17:57:10.259][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[17:57:13.174][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[17:57:13.176][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[15:38:05.065][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[15:38:05.066][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[15:38:05.357][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] D:\Target\NASA_MODIS_MODIS_20201001TO20201031_L3B_GLOBAL_9KM_CHL_NASA2018.HDF
+[15:38:08.080][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[15:38:08.080][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[15:38:08.146][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] 入库成功.
+[15:45:43.176][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[15:45:43.177][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[15:45:43.262][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] D:\Target\NASA_MODIS_MODIS_20201001TO20201031_L3B_GLOBAL_9KM_CHL_NASA2018.HDF
+[15:45:45.950][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[15:45:45.950][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[15:45:46.011][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] 入库成功.
+[15:46:10.979][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[15:46:10.980][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:36.397][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:36.398][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:36.507][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] D:\Target\NASA_MODIS_MODIS_20210329TO20210329_L3B_GLOBAL_9KM_CHL_ZJD.HDF
+[16:06:38.348][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:38.348][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:38.500][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] 入库成功.
+[16:06:38.557][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:38.557][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:38.660][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] D:\Target\NASA_MODIS_MODIS_20210329TO20210329_L3B_GLOBAL_9KM_PAR_ZJD.HDF
+[16:06:40.872][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:40.873][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:41.047][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] 入库成功.
+[16:06:41.097][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:41.097][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:41.195][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] D:\Target\NASA_SMAP_MERGE_20200101TO20200131_L3B_GLOBAL_25KM_SSS_ZJD.HDF
+[16:06:41.569][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:41.569][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:41.642][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] 入库成功.
+[16:06:41.697][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:41.698][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:41.820][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] D:\Target\NOAA_NOAA_AVHRR_20200413TO20200413_L3B_GLOBAL_25KM_SST_ZJD.HDF
+[16:06:42.223][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:42.223][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:42.299][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] 入库成功.
+[16:06:42.354][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:42.355][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:42.839][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] D:\Target\OSU_Aqua_MODIS_20190501TO20190531_L3B_GLOBAL_9KM_NPP_ZJD.HDF
+[16:06:46.635][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:46.635][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:46.716][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] 入库成功.
+[16:06:46.781][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:46.782][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:47.057][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] D:\Target\SIO_MODIS_MODIS_20210105TO20210105_L3B_GLOBAL_8KM_CDOM_ZJD.HDF
+[16:06:48.652][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:48.652][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:48.727][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] 入库成功.
+[16:06:48.792][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:48.793][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:49.074][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] D:\Target\SIO_MODIS_MODIS_20210105TO20210105_L3B_GLOBAL_8KM_Cpom660_ZJD.HDF
+[16:06:50.634][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:50.634][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:50.716][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] 入库成功.
+[16:06:50.767][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:50.768][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:51.042][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] D:\Target\SIO_MODIS_MODIS_20210105TO20210105_L3B_GLOBAL_8KM_NAP_ZJD.HDF
+[16:06:52.683][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:52.683][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:52.751][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] 入库成功.
+[16:06:52.805][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:52.805][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:53.107][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] D:\Target\SIO_MODIS_MODIS_20210105TO20210105_L3B_GLOBAL_8KM_SAL_ZJD.HDF
+[16:06:54.676][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:54.676][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:54.738][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] 入库成功.
+[16:06:54.791][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:54.791][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:55.085][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] D:\Target\SIO_MODIS_MODIS_20210105TO20210105_L3B_GLOBAL_8KM_SDD_ZJD.HDF
+[16:06:56.613][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[16:06:56.613][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[16:06:56.681][void __cdecl DataImport::execDataImp(class QString,bool)][Debug] 入库成功.
+[13:13:59.745][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[13:13:59.746][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[13:13:59.844][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[13:13:59.844][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[13:13:59.943][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[13:13:59.943][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[13:14:00.041][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[13:14:00.041][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[13:14:00.146][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[13:14:00.146][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[13:14:00.247][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[13:14:00.248][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[13:14:00.349][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[13:14:00.351][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[13:14:00.454][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[13:14:00.454][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[13:14:00.558][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[13:14:00.558][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[21:16:49.602][int __cdecl main(int,char **)][Debug] open failed.
+[22:34:50.303][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:50.305][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:34:50.305][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:34:50.369][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:50.562][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:50.562][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:34:50.563][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:34:50.616][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:50.687][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:50.688][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:34:50.688][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:34:50.754][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:50.826][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:50.827][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:34:50.827][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:34:50.892][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:50.966][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:50.966][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:34:50.967][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:34:51.033][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:51.107][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:51.107][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:34:51.108][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:34:51.174][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:51.246][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:51.247][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:34:51.247][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:34:51.314][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:51.387][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:51.387][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:34:51.388][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:34:51.454][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:51.527][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:51.527][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:34:51.527][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:34:51.593][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:51.665][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:34:51.665][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:34:51.666][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:34:51.732][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:53.905][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:53.906][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:35:53.906][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:35:53.972][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:54.045][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:54.045][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:35:54.045][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:35:54.111][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:54.183][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:54.184][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:35:54.184][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:35:54.253][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:54.324][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:54.325][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:35:54.325][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:35:54.391][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:54.464][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:54.464][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:35:54.465][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:35:54.531][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:54.603][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:54.603][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:35:54.603][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:35:54.670][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:54.743][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:54.743][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:35:54.744][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:35:54.810][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:54.884][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:54.884][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:35:54.884][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:35:54.950][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:55.022][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:55.023][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:35:55.023][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:35:55.089][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:55.162][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.
+[22:35:55.162][][Warning] QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.
+[22:35:55.163][][Warning] QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.
+[22:35:55.229][][Warning] The server version of this PostgreSQL is unknown, falling back to the client version.

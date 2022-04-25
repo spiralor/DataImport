@@ -1,0 +1,8 @@
+gdal111
+
+
+D:\Qt\5.5\msvc2010\include\QtCore;D:\Qt\5.5\msvc2010\include\QtXml;F:\OSG\VS2010_3rdParty\OsgEarth\x86\include;F:\OSG\VS2010_3rdParty\warmerda\bld\include;C:\Program Files %28x86%29\PostgreSQL\9.3\include;D:\Qt\5.5\msvc2010\include;D:\Qt\5.5\msvc2010\include\QtSql;D:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtCore;D:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtXml;D:\OSG_64\warmerda2\bld\include;D:\Qt\Qt5.6.0\5.6\msvc2013_64\include;D:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtSql;%(AdditionalIncludeDirectories)
+
+D:\Qt\5.5\msvc2010\include\QtCore;D:\Qt\5.5\msvc2010\include\QtXml;F:\OSG\VS2010_3rdParty\OsgEarth\x86\include;F:\OSG\VS2010_3rdParty\warmerda\bld\include;C:\Program Files %28x86%29\PostgreSQL\9.3\include;D:\Qt\5.5\msvc2010\include;D:\Qt\5.5\msvc2010\include\QtSql;D:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtCore;D:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtXml;D:\OSG_64\warmerda2\bld\include;D:\Qt\Qt5.6.0\5.6\msvc2013_64\include;D:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtSql;%(AdditionalIncludeDirectories)
+
+D:\Qt\5.5\msvc2010\include\QtCore;D:\Qt\5.5\msvc2010\include\QtXml;F:\OSG\VS2010_3rdParty\OsgEarth\x86\include;F:\OSG\VS2010_3rdParty\warmerda\bld\include;C:\Program Files %28x86%29\PostgreSQL\9.3\include;D:\Qt\5.5\msvc2010\include;D:\Qt\5.5\msvc2010\include\QtSql;%(AdditionalIncludeDirectories)
