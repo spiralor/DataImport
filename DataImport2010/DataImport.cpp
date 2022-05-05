@@ -30,17 +30,17 @@ bool DelDir(const QString &path)
 	if (!dir.exists()){
 		return true;
 	}
-	dir.setFilter(QDir::AllEntries | QDir::NoDotAndDotDot); //ÉèÖÃ¹ıÂË  
-	QFileInfoList fileList = dir.entryInfoList(); // »ñÈ¡ËùÓĞµÄÎÄ¼şĞÅÏ¢  
-	foreach(QFileInfo file, fileList){ //±éÀúÎÄ¼şĞÅÏ¢  
-		if (file.isFile()){ // ÊÇÎÄ¼ş£¬É¾³ı  
+	dir.setFilter(QDir::AllEntries | QDir::NoDotAndDotDot); //è®¾ç½®è¿‡æ»¤  
+	QFileInfoList fileList = dir.entryInfoList(); // è·å–æ‰€æœ‰çš„æ–‡ä»¶ä¿¡æ¯  
+	foreach(QFileInfo file, fileList){ //éå†æ–‡ä»¶ä¿¡æ¯  
+		if (file.isFile()){ // æ˜¯æ–‡ä»¶ï¼Œåˆ é™¤  
 			file.dir().remove(file.fileName());
 		}
-		else{ // µİ¹éÉ¾³ı  
+		else{ // é€’å½’åˆ é™¤  
 			DelDir(file.absoluteFilePath());
 		}
 	}
-	return dir.rmpath(dir.absolutePath()); // É¾³ıÎÄ¼ş¼Ğ  
+	return dir.rmpath(dir.absolutePath()); // åˆ é™¤æ–‡ä»¶å¤¹  
 }
 
 int _System(const char * cmd, char *pRetMsg, int msg_len)
@@ -98,7 +98,7 @@ QFileInfoList GetFileList(QString path)
 QFileInfoList GetFileListFromTxt()
 {
 	ifstream infile; 
-	infile.open("SourceTiff_file2_path.txt");   //½«ÎÄ¼şÁ÷¶ÔÏóÓëÎÄ¼şÁ¬½ÓÆğÀ´ 
+	infile.open("SourceTiff_file2_path.txt");   //å°†æ–‡ä»¶æµå¯¹è±¡ä¸æ–‡ä»¶è¿æ¥èµ·æ¥ 
 
 	QFileInfoList file_list;
 	string sstFile;
@@ -151,7 +151,7 @@ vector<QString> DataImport::MoveFiles()
 		{
 			pFileName = files[i];
 
-			//×Ô¶¯½øĞĞÊı¾İµÄ¸²¸Ç£¬´Ë´¦²»¼ì²é£¬ºóÃæÖ±½Ó¸²¸Ç£¡
+			//è‡ªåŠ¨è¿›è¡Œæ•°æ®çš„è¦†ç›–ï¼Œæ­¤å¤„ä¸æ£€æŸ¥ï¼Œåé¢ç›´æ¥è¦†ç›–ï¼
 			fileTarPath = this->targetDirec + "\\" + files[i];
 			fileSouPath = this->sourceDirec + "\\" + files[i];
 			QFile sfile(fileTarPath);
@@ -167,7 +167,7 @@ vector<QString> DataImport::MoveFiles()
 	return fnames;
 }
 
-//Ñ­»·ÎÄ¼şÈë¿â
+//å¾ªç¯æ–‡ä»¶å…¥åº“
 void DataImport::ImportFiles(QFileInfoList fileFullInfo)
 {
 	for (int i=0;i<fileFullInfo.size();i++)
@@ -219,6 +219,7 @@ void DataImport::ImportFiles(QFileInfoList fileFullInfo)
 			//QFile::remove(targetFile);
 		}
 		cout<<targetFile.toStdString()<<" import"<<endl;
+		QFile::remove(targetFile); //é˜²æ­¢æ²¡æœ‰æ›´æ–°è¦†ç›–
 		QFile::copy(fileFullInfo.at(i).absoluteFilePath(), targetFile);
 		execDataImp(fileFullInfo.at(i).fileName(),IsExistDB);
 		//QFile::remove(fileFullInfo.at(i).absoluteFilePath());
@@ -298,15 +299,15 @@ void DataImport::execDataImp(QString fileName,bool IsExistDB)
 		GDALDataset *pDataset = (GDALDataset*)GDALOpen(FileFulPath.toStdString().c_str(), GA_ReadOnly);
 		if (pDataset == NULL)
 		{
-			qDebug(QString::fromLocal8Bit("hdfÎÄ¼ş´ò¿ªÊ§°Ü.").toStdString().c_str());
+			qDebug(QString::fromLocal8Bit("hdfæ–‡ä»¶æ‰“å¼€å¤±è´¥.").toStdString().c_str());
 			return;
 		}
-		//»ñÈ¡Íâ²ãÊôĞÔ
+		//è·å–å¤–å±‚å±æ€§
 		char** papszMetadata = GDALGetMetadata(pDataset, NULL);
 
 		getProductProperties(prop, papszMetadata);
 
-		////Êı¾İ¿âÖĞÊÇ·ñ´æÔÚ
+		////æ•°æ®åº“ä¸­æ˜¯å¦å­˜åœ¨
 		//bool IsExistDB = false;
 		//string sql_query = "select id from raster.chn_layer where name='" + prop.LayerName + "'";
 		//if (!DataImportUtils::db.isOpen())
@@ -334,18 +335,18 @@ void DataImport::execDataImp(QString fileName,bool IsExistDB)
 		{
 			if (!makeTiff(pDataset, prop, IsExistDB))
 			{
-				qDebug(QString::fromLocal8Bit("Èë¿âÊ§°Ü.").toStdString().c_str());
+				qDebug(QString::fromLocal8Bit("å…¥åº“å¤±è´¥.").toStdString().c_str());
 				return;
 			}
 		}
 
-		qDebug(QString::fromLocal8Bit("Èë¿â³É¹¦.").toStdString().c_str());
+		qDebug(QString::fromLocal8Bit("å…¥åº“æˆåŠŸ.").toStdString().c_str());
 		GDALClose(pDataset);
 		QFile::remove(FileFulPath);
 	}
 	catch (...)
 	{
-		qDebug(QString::fromLocal8Bit("Èë¿âÊ§°Ü.").toStdString().c_str());
+		qDebug(QString::fromLocal8Bit("å…¥åº“å¤±è´¥.").toStdString().c_str());
 	}
 }
 
@@ -398,10 +399,10 @@ void DataImport::getProductProperties(OERSProductProperties& prop, char** papszM
 	}
 }
 
-//µ¼Èë·ç³¡Êı¾İ
+//å¯¼å…¥é£åœºæ•°æ®
 bool DataImport::importSSW(GDALDataset *pDataset, OERSProductProperties prop, bool IsExistDB)
 {
-	//»ñÈ¡ÄÚ²ãÊôĞÔ
+	//è·å–å†…å±‚å±æ€§
 	char ** papszSUBDATASETS = GDALGetMetadata(pDataset, "SUBDATASETS");
 	GDALDataset *pDatasetSSWS = NULL;
 	GDALDataset *pDatasetSSWD = NULL;
@@ -424,7 +425,7 @@ bool DataImport::importSSW(GDALDataset *pDataset, OERSProductProperties prop, bo
 				getProductProperties(prop, papszMetadata2);
 				if (!makeTiff(pDatasetSSWS, prop, IsExistDB))
 				{
-					qDebug(QString::fromLocal8Bit("Éú³ÉtifÊ§°Ü.").toStdString().c_str());
+					qDebug(QString::fromLocal8Bit("ç”Ÿæˆtifå¤±è´¥.").toStdString().c_str());
 					return false;
 				}
 			}
@@ -441,8 +442,8 @@ bool DataImport::importSSW(GDALDataset *pDataset, OERSProductProperties prop, bo
 	bool createTable = CreateSSWTable(prop.LayerName);
 	if (createTable)
 	{
-		//·ç³¡Ê¸Á¿Èë¿â
-		int stepForGrid = 8;//¸ñÍø¼ä¾àÄ¬ÈÏÎª¶ş¸ö¸ñÍø
+		//é£åœºçŸ¢é‡å…¥åº“
+		int stepForGrid = 8;//æ ¼ç½‘é—´è·é»˜è®¤ä¸ºäºŒä¸ªæ ¼ç½‘
 		float x, y, ssws, sswd;
 		float Threshold = 0.2;
 
@@ -473,11 +474,11 @@ bool DataImport::importSSW(GDALDataset *pDataset, OERSProductProperties prop, bo
 				y = prop.ProdLatMax - (float)row * prop.LatitudeStep;
 
 				pRasterBandSSWS->RasterIO(GF_Read, col, row, 1, 1, pdatavalue, 1, 1, dataType, 0, 0);
-				ssws = pdatavalue[0];//·çËÙ
+				ssws = pdatavalue[0];//é£é€Ÿ
 				if (ssws > Threshold)
 				{
 					pRasterBandSSWD->RasterIO(GF_Read, col, row, 1, 1, pdatavalue, 1, 1, dataType, 0, 0);
-					sswd = pdatavalue[0];//½Ç¶È
+					sswd = pdatavalue[0];//è§’åº¦
 					sswsVector.push_back(ssws);
 					sswdVector.push_back(sswd);
 
@@ -495,7 +496,7 @@ bool DataImport::importSSW(GDALDataset *pDataset, OERSProductProperties prop, bo
 					}*/
 					
 
-					float arrLen = mainLen *0.66666667;//2/3³¤¶È
+					float arrLen = mainLen *0.66666667;//2/3é•¿åº¦
 
 					float x1 = x - mainLen * sin(sswd);
 					float y1 = y - mainLen * cos(sswd);
@@ -503,7 +504,7 @@ bool DataImport::importSSW(GDALDataset *pDataset, OERSProductProperties prop, bo
 					float x2 = x + mainLen * sin(sswd);
 					float y2 = y + mainLen * cos(sswd);
 
-					float x3 = x2 - arrLen * sin(sswd + 0.34906585);//20¶È
+					float x3 = x2 - arrLen * sin(sswd + 0.34906585);//20åº¦
 					float y3 = y2 - arrLen * cos(sswd + 0.34906585);
 
 					float x4 = x2 - arrLen * sin(sswd - 0.34906585);
@@ -559,13 +560,13 @@ bool DataImport::importSSW(GDALDataset *pDataset, OERSProductProperties prop, bo
 	}
 	else
 	{
-		qDebug(QString::fromLocal8Bit("createSSWTableÊ§°Ü.").toStdString().c_str());
+		qDebug(QString::fromLocal8Bit("createSSWTableå¤±è´¥.").toStdString().c_str());
 		return false;
 	}
 	return true;
 }
 
-//´´½¨·ç³¡Êı¾İ¿â
+//åˆ›å»ºé£åœºæ•°æ®åº“
 bool DataImport::CreateSSWTable(string fileName)
 {
 
@@ -607,7 +608,7 @@ bool DataImport::CreateSSWTable(string fileName)
 	return isSuccess;
 }
 
-//Éú³Étif²¢²åÈë±í
+//ç”Ÿæˆtifå¹¶æ’å…¥è¡¨
 bool DataImport::makeTiff(GDALDataset *pDataset, OERSProductProperties prop, bool IsExist = false)
 {
 	double adfGeoTransform[6] = { prop.ProdLonMin, prop.LongitudeStep, 0, prop.ProdLatMax, 0, -prop.LongitudeStep };
@@ -623,7 +624,7 @@ bool DataImport::makeTiff(GDALDataset *pDataset, OERSProductProperties prop, boo
 	QDir sdir(lastDir.c_str());
 	if (!sdir.exists())
 	{
-		sdir.mkpath(lastDir.c_str());//´´½¨¶à¼¶Ä¿Â¼
+		sdir.mkpath(lastDir.c_str());//åˆ›å»ºå¤šçº§ç›®å½•
 	}
 	QDir sdir2(dstPath.c_str());
 	if (sdir2.exists())
@@ -695,7 +696,7 @@ bool DataImport::makeTiff(GDALDataset *pDataset, OERSProductProperties prop, boo
 	}
 	GDALClose(dstDataset);
 
-	//½âÑ¹ºóÉ¾³ı
+	//è§£å‹ååˆ é™¤
 	int iLen = strlen(fileNameTif.c_str());
 	TCHAR *chRtnTif = new TCHAR[iLen+1];
 	mbstowcs(chRtnTif, fileNameTif.c_str(), iLen+1);
@@ -736,12 +737,12 @@ bool DataImport::makeTiff(GDALDataset *pDataset, OERSProductProperties prop, boo
 	}
 	prop.maxDataLevel = maxLevel;
 	//int maxLevel = 0;
-	//struct _finddata_t fileinfo;    //_finddata_tÊÇÒ»¸ö½á¹¹Ìå£¬ÒªÓÃµ½#include <io.h>Í·ÎÄ¼ş£»  
+	//struct _finddata_t fileinfo;    //_finddata_tæ˜¯ä¸€ä¸ªç»“æ„ä½“ï¼Œè¦ç”¨åˆ°#include <io.h>å¤´æ–‡ä»¶ï¼›  
 	//long ld;
 	//if ((ld = _findfirst((dstPath + "\\*").c_str(), &fileinfo)) != -1l){
 	//	do{
 	//		if ((fileinfo.attrib&_A_SUBDIR))
-	//		{  //Èç¹ûÊÇÎÄ¼ş¼Ğ
+	//		{  //å¦‚æœæ˜¯æ–‡ä»¶å¤¹
 	//			if (strcmp(fileinfo.name, ".") != 0 && strcmp(fileinfo.name, "..") != 0)
 	//			{
 	//				string xx = fileinfo.name;
